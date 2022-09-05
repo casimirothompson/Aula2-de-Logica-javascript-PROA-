@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lição2 JS1</title>
+</head>
+<body>
+    <!-- 
+        As maçãs custam R$ 3,50 cada se forem compradas menos do que uma dúzia, e R$ 2,50 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas (considere que o usuário informará a quantidade),  calcule e escreva o valor total da compra.
+     -->
+    <h1>formulario 2 lição 1</h1>
+    <p>
+        As maçãs custam R$ 3,50 cada se forem compradas menos do que uma dúzia, e R$ 2,50 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas <br>(considere que o usuário informará a quantidade),  calcule e escreva o valor total da compra. <br> 
+    </p>
+    <script>
+        let UnidadeDeMaca = parseFloat(prompt("digite aqui quantas maçãs você gostaria de comprar: "));
+        let Total1 = (3.50*UnidadeDeMaca);
+        let Total2 = ((2.50)*UnidadeDeMaca);
+
+        if(UnidadeDeMaca <12){
+            document.write("você pediu "+UnidadeDeMaca+" maçãs,logo ao todo ficou no valor de: "+Total1+"R$")
+        }else{
+            document.write("você pediu "+UnidadeDeMaca+" maçãs, logo ao todo as maçãs ficaram no valor de: "+Total2+"R$")
+        };
+    </script>
+</body>
+</html>
