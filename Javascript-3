@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>licao2 JS3</title>
+</head>
+<body>
+    <h1>formulario 2 exercicio 9</h1>
+    <p>
+        Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação).O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. 
+    </p>
+    <script>
+        let valor1 = parseFloat(prompt("insira o primeiro valor: "));
+        let valor2 = parseFloat(prompt("insira o segundo valor: "));
+        let soma = (valor1 + valor2);
+        let subtracao = (valor1 - valor2);
+        let multiplicacao = (valor1 * valor2);
+        let divisao1 = (valor1 / valor2);
+        let divisao = divisao1.toFixed(2)
+
+        document.write("<br>"+" a soma dos dois valores é igual á: "+soma);
+        document.write("<br>"+"a subtracao dos dois valores é igual á: "+subtracao);
+        document.write("<br>"+"a multiplicação dos dois valores é igual á: "+multiplicacao);
+        document.write("<br>"+"a divisão dos dois valores é igual á: "+divisao);
+    </script>
+</body>
+</html>
