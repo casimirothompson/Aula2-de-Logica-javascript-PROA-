@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>licao2</title>
+</head>
+<body>
+    <h1>formulario 2 exercicio 8</h1>
+    <p>
+        Escreva um programa para ler o número de gols marcados pelo Corinthians e o número de gols marcados pelo Palmeiras em um final da Libertadores. Exibir o nome do vencedor. Caso não haja vencedor deverá ser exibida a palavra EMPATE.
+    </p>
+    <script>
+        let GolCorinthians = parseInt(prompt("digite o numero de gols que o Corinthians fizeram no total: "));
+        let GolPalmeiras = parseInt(prompt("Digite o numero de gols que o Palmeiras fizeram no total: "))
+
+        if(GolCorinthians > GolPalmeiras){
+            document.write("o vencedor é o time do Corinthians")
+        }else if(GolPalmeiras > GolCorinthians){
+            document.write("o vencedor é o time do Palmeiras")
+        }else if(GolCorinthians == GolPalmeiras){
+            document.write("ambos os times estão empatados")
+        };
+
+    </script>
+</body>
+</html>
